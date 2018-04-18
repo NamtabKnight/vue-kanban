@@ -1,15 +1,23 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Backlog from '@/components/Backlog';
+import KanbanBoard from '@/components/KanbanBoard';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
-})
+      path: '/backlog',
+      component: Backlog,
+    },
+    {
+      path: '/board',
+      component: KanbanBoard,
+    },
+    {
+      path: '*',
+      redirect: '/backlog',
+    },
+  ],
+});
