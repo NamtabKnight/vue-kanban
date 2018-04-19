@@ -11,14 +11,14 @@
 export default {
   name: 'MenuBar',
   methods: {
-    buttonClass(path)  {
+    buttonClass(path) {
       return {
         btn: true,
         'btn-primary': this.$route.path === path,
-        'btn-secondary': this.$route.path !== path
+        'btn-secondary': this.$route.path !== path,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 

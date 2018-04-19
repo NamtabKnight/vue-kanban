@@ -26,3 +26,16 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+To Do
+> create login for myself
+> create DB to store information
+> create API call to retrieve and store data in DB
+> add ability to create custom lanes
+> add ability for multiple projects/customers
+> time tracking
+> add more details to cards
+  > title
+  > descriptions
+  > comments
